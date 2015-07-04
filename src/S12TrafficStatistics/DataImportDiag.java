@@ -65,7 +65,7 @@ public class DataImportDiag extends JDialog{
 
 	public void init() 
 	{
-		f.setSize(500, 260);
+		f.setSize(500, 240);
 		f.setVisible(true);
 		f.setLocationRelativeTo(null);
 	
@@ -83,11 +83,11 @@ public class DataImportDiag extends JDialog{
 
 		//filesourcePanel.add(importBtn);
 		f.add(filesourcePanel);
-		jBtn.setBounds(155,175,80,32);
+		jBtn.setBounds(200,155,80,32);
 		jBtn.setVisible(true);
 		jBtncancel.setBounds(255,175,80,32);
 		jBtncancel.setVisible(false);
-		bar.setBounds(20, 145, 450, 20);
+		bar.setBounds(20, 125, 450, 20);
 		bar.setVisible(false);
 		f.add(jBtn);
 		f.add(jBtncancel);
